@@ -41,7 +41,7 @@ pipeline {
                 script {
 
                     // KUBECONFIG must be Windows style path
-                    withEnv(["KUBECONFIG=C:\Users\dmand\.kube\config"]) {
+                    withEnv(["KUBECONFIG=C:/Users/dmand/.kube/config"]) {
 
                         echo "Applying Kubernetes manifests..."
 
